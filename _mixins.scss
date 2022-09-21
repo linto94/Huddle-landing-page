@@ -1,0 +1,14 @@
+// Mixins
+@mixin flex-center ($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    
+}
+
+@mixin center ($position) {
+    display: flex;
+    flex-direction: $position;
+    
+}

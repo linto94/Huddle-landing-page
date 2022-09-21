@@ -1,0 +1,33 @@
+//   MEDIA QUERIES
+//   MEDIA QUERIES
+//   MEDIA QUERIES
+
+// DESKTOP DESIGN
+@media only screen and (max-width: 1440px) {
+    .main-img img {
+      width: 100%;
+    }
+  }
+
+// MOBILE DESIGN
+
+@media only screen and (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-icons {
+      text-align: center;
+      margin-top: 50px;
+    }
+  
+    .main-text h1 {
+      line-height: 1.5;
+      font-size: 26px;
+    }
+  
+    .main-text a {
+      padding: 10px 70px;
+    }
+  }

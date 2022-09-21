@@ -1,0 +1,41 @@
+// Main Section Styles
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+.main-text{
+
+    h1 {
+        color: $color-white;
+        font-family: $font-body;
+        font-size: 36px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: $color-white;
+        font-family: $font-header;
+        line-height: 1.8;
+        margin-bottom: 30px;
+      }
+
+      a {
+        display: inline-block;
+        font-family: $font-header;
+        background-color: $color-white;
+        padding: 13px 50px;
+        border-radius: 25px;
+        text-decoration: none;
+        box-shadow: 0 8px 17px -8px rgba(0, 0, 0, 0.8);
+        transition: all 0.3s ease;
+               
+          &:hover{
+            background-color: $colorsecondary;
+            color: $color-white;
+          }
+      }
+}
